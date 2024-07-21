@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisis</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .menu {
+            background-color: #1f4b99;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #3f6bbf;
+        }
+        .header-image {
+            margin: 1% 10%;
+            width: 80%;
+            height: auto;
+        }
+        .trailer {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+            flex: 1;
+        }
+        .content img {
+            max-width: 45%;
+            margin: 10px;
+        }
+        .content div {
+            max-width: 45%;
+            margin: 10px;
+        }
+        .footer {
+            background-color: #1f4b99;
+            text-align: left;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#download">Download</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#patreon">Patreon</a>
+    </div>
+
+    <div id="inicio">
+        <img src="prota.webp" alt="Arte da protagonista versão anime" class="header-image">
+    </div>
+
+    <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="content" id="sobre">
+        <img src="imagem1.jpg" alt="Mecânica 1">
+        <div>
+            <h2>Mecânica 1</h2>
+            <p>Descrição da mecânica 1 do jogo.</p>
+        </div>
+        <img src="imagem2.jpg" alt="Mecânica 2">
+        <div>
+            <h2>Mecânica 2</h2>
+            <p>Descrição da mecânica 2 do jogo.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contato:</p>
+        <p>Email: iderlan2001@gmail.com</p>
+        <p>Whatsapp: <a href="https://wa.me/5593992144404">+55 (93) 93 9214-4404</a></p>
+        <p><a href="https://github.com/iderlan?tab=repositories">Github</a></p>
+    </div>
+</body>
+</html>
