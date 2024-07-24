@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link dos icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Elisis</title>
     <style>
         body {
@@ -18,6 +20,9 @@
         .menu {
             background-color: #1f4b99;
             overflow: hidden;
+        }
+        .menu a i {
+            margin-right: 8px; /* Espaço entre o ícone e o texto */
         }
         .menu a {
             float: left;
@@ -51,11 +56,16 @@
             max-width: 20%;
             margin: 10px;
         }
+        .content video {
+            max-width: 20%;
+            margin: 10px;
+        }
         .content div {
             max-width: 20%;
             margin: 10px;
         }
         .footer {
+            font-weight: bold;
             background-color: #1f4b99;
             text-align: left;
             padding: 30px;
@@ -64,10 +74,13 @@
 </head>
 <body>
     <div class="menu">
-        <a href="#inicio">Início</a>
-        <a href="#download">Download</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#patreon">Patreon</a>
+        <a href="#inicio"><i class="fas fa-home"></i>Início</a>
+        <a href="#download"><i class="fas fa-download"></i>Download</a>
+        <a href="#sobre"><i class="fas fa-info-circle"></i>Sobre</a>
+        <a href="#produtos"><i class="fa-solid fa-cart-shopping"></i>Produtos</a>
+        <a href="https://www.patreon.com/Elisis"><i class="fab fa-patreon"></i>Patreon</a>
+        <a href="https://www.youtube.com/channel/UCFaZgwnDQaekFbyEolz03JA"><i class="fa-brands fa-youtube"></i>Youtube</a>
+        <a href="#Contato"><i class="fas fa-envelope"></i>Contato</a>
     </div>
 
     <div id="inicio">
@@ -75,7 +88,9 @@
     </div>
 
     <div class="trailer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KwV9k-GQ7t0?si=0WhEiATwx6AwHkYx&amp;controls=0" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <div class="content" id="sobre">
@@ -102,10 +117,44 @@
             <p>Algo que não é muito comum neste estilo de jogo, porém existirá vários pontos onde o jogador
             terá que resolver puzzles para conseguir reconpensas como dinheiro, powerups, vida ou um atalho.</p>
         </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BQ5v10QewG4?si=psV_jck3a1y3A8QN&amp;controls=0" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <div>
+            <h2>poder de fogo</h2>
+            <p>Será possível obter até 4 poderes ofecencivos de fogo, poderes de fogo que atingem o inimigo, deixa ele no estado "queimando"
+            no qual ele recebe uma instância de dano a cada 3 segundos por 9 segundos, totalizando um dano equivalente a 1.5x o dano da espada.</p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/N5xJxSmqgUg?si=Ox_zIfpAm65dbVZU&amp;controls=0" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <h2>poder de água</h2>
+            <p>Será possível obter até 4 poderes ofecencivos de água, poderes de água que atingem o inimigo, deixa ele no estado "molhado"
+            no qual inimigos voadores ficam mais lentos e habilita a melhores reações com outros ataques de outros elementos.</p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zCtfAoI_KKM?si=1RQB_RyOd-PnmUIC&amp;controls=0" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        <div>
+            <h2>poder de terra</h2>
+            <p>Também será possível obter até 4 poderes ofecencivos de terra, poderes de terra que atingem o inimigo, deixa ele no estado "suterrado"
+            no qual o enche a barra de (stun), inimigos stunados não se movimentam e não causam dano ao jogador. E habilita a melhores reações com outros ataques de outros elementos.</p>
+        </div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/WPGzZ-xV5XY?si=Paws960iEzOaAn_5&amp;controls=0" 
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <h2>poder de ar</h2>
+            <p>Por último, também será possível obter até 4 poderes ofecencivos de Ar, poderes de Ar que atingem um inimigo com algum estado elemental citado a cima, 
+            terá o elemento absorvido pelo poder de ar, e irá espalhar esse elemento para outros inimigos que atingir. Poderes de ar são mais rápidos.</p>
+        </div>
     </div>
 
-    <div class="footer">
-        <p>Contato:</p>
+    <div id = "Contato" class="footer">
+        <h1>Contato:</h1>
         <p>Email: iderlan2001@gmail.com</p>
         <p>Whatsapp: <a href="https://wa.me/5593992144404">+55 (93) 93 9214-4404</a></p>
         <p><a href="https://github.com/iderlan?tab=repositories">Github</a></p>
