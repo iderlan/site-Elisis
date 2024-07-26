@@ -35,6 +35,12 @@
         .menu a:hover {
             background-color: #3f6bbf;
         }
+        .header-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
         .header-image {
             margin: 1% 10%;
             width: 80%;
@@ -52,17 +58,33 @@
             margin: 20px;
             flex: 1;
         }
-        .content img {
-            max-width: 20%;
-            margin: 10px;
-        }
+        
         .content video {
             max-width: 20%;
             margin: 10px;
         }
-        .content div {
-            max-width: 20%;
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+            flex: 1;
+        }
+        .content iframe, .content div {
+            width: 20vw;
             margin: 10px;
+            float: left;
+        }
+        .content img {
+            width: 20vw;
+            margin: 10px;
+            float: left;
+        }
+        .content div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .footer {
             font-weight: bold;
@@ -70,24 +92,72 @@
             text-align: left;
             padding: 30px;
         }
+        iframe {
+            width: 20%;
+            height: auto;
+            margin: 10px;
+        }
+        .trailer iframe {
+            width: 50%;
+            height: auto;
+            aspect-ratio: 16 / 9; /* Mantém a proporção do vídeo */
+        }
+        @media (min-width: 800px) {
+            .menu a span {
+                display: inline;
+            }
+        }
+        @media (max-width: 799px) {
+            .menu a span {
+                display: none;
+            }
+            .menu a {
+                padding: 10px 5px;
+            }
+            .menu-toggle {
+                display: block;
+            }
+        }
+        @media (max-width: 1000px) {
+            .content iframe, .content div {
+                width: 40%;
+            }
+            .content img {
+                width: 30vw;
+                margin: 10px;
+            }
+        }
+        @media (max-width: 800px) {
+            .content{
+                flex-direction: column;
+                align-items: center;
+            }
+            .content iframe, .content div {
+                width: 60%;
+            }
+            .content img {
+                width: 60%;
+                margin: 10px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="menu">
-        <a href="#inicio"><i class="fas fa-home"></i>Início</a>
-        <a href="#download"><i class="fas fa-download"></i>Download</a>
-        <a href="#sobre"><i class="fas fa-info-circle"></i>Sobre</a>
-        <a href="#produtos"><i class="fa-solid fa-cart-shopping"></i>Produtos</a>
-        <a href="https://www.patreon.com/Elisis"><i class="fab fa-patreon"></i>Patreon</a>
-        <a href="https://www.youtube.com/channel/UCFaZgwnDQaekFbyEolz03JA"><i class="fa-brands fa-youtube"></i>Youtube</a>
-        <a href="#Contato"><i class="fas fa-envelope"></i>Contato</a>
+        <a href="#inicio"><i class="fas fa-home"></i><span>Início</span></a>
+        <a href="#download"><i class="fas fa-download"></i><span>Download</span></a>
+        <a href="#sobre"><i class="fas fa-info-circle"></i><span>Sobre</span></a>
+        <a href="#produtos"><i class="fa-solid fa-cart-shopping"></i><span>Produtos</span></a>
+        <a href="https://www.patreon.com/Elisis"><i class="fab fa-patreon"></i><span>Patreon</span></a>
+        <a href="https://www.youtube.com/channel/UCFaZgwnDQaekFbyEolz03JA"><i class="fa-brands fa-youtube"></i><span>Youtube</span></a>
+        <a href="#Contato"><i class="fas fa-envelope"></i><span>Contato</span></a>
     </div>
 
     <div id="inicio">
         <img src="prota.webp" alt="Arte da protagonista versão anime" class="header-image">
     </div>
 
-    <div class="trailer">
+    <div class="trailer" id = "gameplay">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/KwV9k-GQ7t0?si=0WhEiATwx6AwHkYx&amp;controls=0" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
