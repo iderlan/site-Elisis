@@ -13,6 +13,9 @@ O menu superior contém links para as principais seções do site:
 - **Download**: Página para download do jogo.
 - **Sobre**: Página com informações sobre o jogo.
 - **Patreon**: Página para apoiar o projeto no Patreon.
+- **produtos**: Uma possível página onde está os produtos personalizados com artes do jogo.
+- **Youtube**: página do jogo no youtube.
+- **Contato**: ancoragem para o final da página que tem o rodapé para os contatos.
 
 ### Imagem de Capa
 Logo abaixo do menu, há uma imagem da protagonista que cobre quase toda a largura da página, proporcionando um visual atraente e profissional.
