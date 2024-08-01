@@ -29,7 +29,7 @@ Esta seção do site mostra algumas imagens do jogo com descrições ao lado, de
 ### Rodapé
 O rodapé contém informações de contato e outros detalhes importantes:
 - E-mail de contato.
-- Githib
+- Github
 - Whatsapp
 
 ## Identidade Visual
