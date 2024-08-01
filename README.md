@@ -29,10 +29,8 @@ Esta seção do site mostra algumas imagens do jogo com descrições ao lado, de
 ### Rodapé
 O rodapé contém informações de contato e outros detalhes importantes:
 - E-mail de contato.
-- Redes sociais (Twitter, Facebook, Instagram).
-- Endereço físico.
-- Telefone.
-- Horário de atendimento.
+- Githib
+- Whatsapp
 
 ## Identidade Visual
 A identidade visual do site é composta por cores frias, principalmente azul, com um fundo escuro. Isso proporciona o clima do jogo, que é de mistério e dúvia, 
